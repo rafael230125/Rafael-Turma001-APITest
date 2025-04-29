@@ -27,7 +27,7 @@ describe('Cart - POST', () => {
         .spec()
         .post(`${baseUrl}/carts`)
         .withJson({
-          product_id: 'HHJC7RERZ0M3VDGS6X9HM11A', 
+          product_id: 'HHJC7RERZ0M3VDGS6X9HM00A', 
           quantity: 1
         })
         .expectStatus(StatusCodes.CREATED)
